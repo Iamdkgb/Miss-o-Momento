@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>MindQuiet</title>
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo">M<span>in</span>DQ<span>uie</span>T</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">Sobre</a></li>
+                <li class="nav-item"><a href="#">Menu</a></li>
+                <li class="nav-item"><a href="#">Contato</a></li>
+                <i class='bx bx-search-alt-2'></i>
+
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home">
+            <div class="home-text">
+                <h4 class="text-h4">Bem-vindo a MindQuiet</h4>
+                <h1 class="text-h1">MindQuiet: O poder do silêncio para uma mente mais produtiva.</h1>
+                <p>O MindQuiet é uma inovação revolucionária que redefine a experiência auditiva em ambientes barulhentos. Desenvolvido com tecnologia neural de ponta, o MindQuiet oferece aos usuários uma maneira eficaz de suprimir seletivamente o ruído de fundo indesejado, permitindo uma concentração aprimorada e uma experiência auditiva mais tranquila e agradável em qualquer lugar.</p>
+                
+            </div>
+            <div class="home-img">
+                <img src="Silenciador Mental.png" all="Silenciador Mental">
+            </div>
+        </section>
+
+
+
+        <section class="noticias">
+            <div class="container">
+                <h3>Feedbacks</h3>
+                <p>Explore algumas avaliações do MindQuiet.</p>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="Carlos, Rio de Janeiro.jpg" alt="Carlos">
+                        <p class="nome">Carlos, Rio de Janeiro</p>
+                        <p class="noticia">Estou impressionado com o impacto do MindQuiet em minha vida. Desde que comecei a usar, tenho me sentido mais relaxado, focado e feliz. É incrível como alguns minutos podem fazer tanta diferença.</p>
+                    </div>
+        
+                    <div class="card-item">
+                        <img src="Ana, São Paulo.jpg" alt="Ana">
+                        <p class="nome">Ana, São Paulo</p>
+                        <p class="noticia">MindQuiet transformou minha rotina diária. Me ajuda a encontrar calma e clareza mental, mesmo nos momentos mais agitados. Recomendo para todos que buscam paz interior.</p>
+                    </div>
+        
+                    <div class="card-item">
+                        <img src="Lucas, Belo Horizonte.jpg" alt="Lucas">
+                        <p class="nome">Lucas, Belo Horizonte</p>
+                        <p class="noticia">Como alguém que sempre teve dificuldade em meditar, o MindQuiet foi um verdadeiro achado. Sua abordagem acessível e prática torna uma experiência agradável e transformadora. Recomendo sem hesitar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+    <section id="cta">
+            <div class="container">
+              <h3>Interessado? Entre em Contato!</h3>
+              <form id="contact-form">
+                <input type="text" placeholder="Nome" required>
+                <input type="email" placeholder="Email" required>
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+          </section>  
+        
+    </main>
+        <footer>
+        <p>&copy; 2024 MindQuiet. Todos os direitos reservados.</p>
+      </footer> 
+    
+    <script src="script.js"></script>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+    
+      alert('Obrigado, ' + name + '! Entraremos em contato em breve.');
+    });
+    
+      </script>
+
+
+
+    
+</body>
+</html>
